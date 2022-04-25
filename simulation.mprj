@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MICROCITY_PROJECT>
+  <DATA>
+    <DATASET type="SHAPES">
+      <FILE>Ports.shp</FILE>
+      <PARAMETERS name="01. Ports">
+        <OPTION type="text" id="OBJECT_NAME" name="Name">Ports</OPTION>
+        <OPTION type="long_text" id="OBJECT_DESC" name="Description"/>
+        <OPTION type="boolean" id="SHOW_LEGEND" name="Show Legend">TRUE</OPTION>
+        <OPTION type="range" id="GENERAL_NODATA" name="No Data">-99999.000000; -999.000000</OPTION>
+        <OPTION type="double" id="DISPLAY_TRANSPARENCY" name="Transparency [%]">0.000000</OPTION>
+        <OPTION type="boolean" id="SHOW_ALWAYS" name="Show at all scales">TRUE</OPTION>
+        <OPTION type="range" id="SHOW_RANGE" name="Scale Range">100.000000; 1000.000000</OPTION>
+        <OPTION type="choice" id="COLORS_TYPE" name="Type">2</OPTION>
+        <OPTION type="color" id="UNISYMBOL_COLOR" name="Color">R000 G255 B000</OPTION>
+        <OPTION type="static_table" id="LUT" name="Table">
+          <FIELDS>
+            <FIELD type="COLOR">COLOR</FIELD>
+            <FIELD type="STRING">NAME</FIELD>
+            <FIELD type="STRING">DESCRIPTION</FIELD>
+            <FIELD type="DOUBLE">MINIMUM</FIELD>
+            <FIELD type="DOUBLE">MAXIMUM</FIELD>
+          </FIELDS>
+          <RECORDS>
+            <RECORD>
+              <FIELD>65793</FIELD>
+              <FIELD>Class 1</FIELD>
+              <FIELD>First Class</FIELD>
+              <FIELD>0.000000</FIELD>
+              <FIELD>1.000000</FIELD>
+            </RECORD>
+            <RECORD>
+              <FIELD>255</FIELD>
+              <FIELD>Class 2</FIELD>
+              <FIELD>Second Class</FIELD>
+              <FIELD>1.000000</FIELD>
+              <FIELD>2.000000</FIELD>
+            </RECORD>
+          </RECORDS>
+        </OPTION>
+        <OPTION type="colors" id="METRIC_COLORS" name="Colors">
+          <COLOR>R043 G041 B040</COLOR>
+          <COLOR>R010 G012 B243</COLOR>
+        </OPTION>
+        <OPTION type="range" id="METRIC_ZRANGE" name="Value Range">1.000000; 2.000000</OPTION>
+        <OPTION type="choice" id="METRIC_SCALE_MODE" name="Mode">0</OPTION>
+        <OPTION type="double" id="METRIC_SCALE_LOG" name="Logarithmic Stretch Factor">1.000000</OPTION>
+        <OPTION type="choice" id="LUT_ATTRIB" name="Attribute">0</OPTION>
+        <OPTION type="choice" id="METRIC_ATTRIB" name="Attribute">0</OPTION>
+        <PARAMETERS name="Chart" id="DISPLAY_CHART" type="parameters">
+          <OPTION type="choice" id="TYPE" name="Chart Type">0</OPTION>
+          <OPTION type="choice" id="SIZE_FIELD" name="Attribute (Size)">1</OPTION>
+          <OPTION type="choice" id="SIZE_TYPE" name="Size relates to...">0</OPTION>
+          <OPTION type="double" id="SIZE_DEFAULT" name="Default Size">15.000000</OPTION>
+          <OPTION type="range" id="SIZE_RANGE" name="Size Range">5.000000; 25.000000</OPTION>
+          <OPTION type="boolean" id="FIELD_0" name="TYPE">FALSE</OPTION>
+          <OPTION type="color" id="COLOR_0" name="">R000 G001 B128</OPTION>
+        </PARAMETERS>
+        <OPTION type="choice" id="LABEL_ATTRIB" name="Attribute">1</OPTION>
+        <OPTION type="font" id="LABEL_ATTRIB_FONT" name="Font">
+          <COLOR>R000 G000 B000</COLOR>
+          <FONT>0;-13;0;0;0;400;0;0;0;0;3;2;1;34;Arial</FONT>
+        </OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_PREC" name="Numerical Precision">0</OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_SIZE_TYPE" name="Size relates to...">0</OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_SIZE_BY" name="Size by Attribute">2</OPTION>
+        <OPTION type="double" id="LABEL_ATTRIB_SIZE" name="Default Size">100.000000</OPTION>
+        <OPTION type="color" id="SEL_COLOR" name="Color">R255 G000 B000</OPTION>
+        <OPTION type="color" id="EDIT_COLOR" name="Color">R000 G000 B000</OPTION>
+        <DATA_LIST type="shapes_list" id="EDIT_SNAP_LIST" name="Snap to..."/>
+        <OPTION type="integer" id="EDIT_SNAP_DIST" name="Snap Distance">10</OPTION>
+        <OPTION type="choice" id="DISPLAY_BRUSH" name="Fill Style">0</OPTION>
+        <OPTION type="boolean" id="OUTLINE" name="Outline">TRUE</OPTION>
+        <OPTION type="color" id="OUTLINE_COLOR" name="Color">R000 G000 B000</OPTION>
+        <OPTION type="integer" id="OUTLINE_SIZE" name="Size">0</OPTION>
+        <OPTION type="choice" id="DISPLAY_SYMBOL_TYPE" name="Symbol Type">0</OPTION>
+        <OPTION type="file" id="DISPLAY_SYMBOL_IMAGE" name="Symbol Image"/>
+        <OPTION type="choice" id="LABEL_ANGLE_ATTRIB" name="Rotation by Attribute">2</OPTION>
+        <OPTION type="double" id="LABEL_ANGLE" name="Default Rotation">0.000000</OPTION>
+        <OPTION type="choice" id="LABEL_ALIGN_X" name="Horizontal Align">1</OPTION>
+        <OPTION type="choice" id="LABEL_ALIGN_Y" name="Vertical Align">0</OPTION>
+        <OPTION type="choice" id="SIZE_TYPE" name="Size relates to...">0</OPTION>
+        <OPTION type="choice" id="SIZE_ATTRIB" name="Attribute">2</OPTION>
+        <OPTION type="choice" id="SIZE_SCALE" name="Attribute Values">1</OPTION>
+        <OPTION type="range" id="SIZE_RANGE" name="Size Range">2.000000; 4.000000</OPTION>
+        <OPTION type="double" id="SIZE_DEFAULT" name="Default Size">5.000000</OPTION>
+        <OPTION type="color" id="SEL_COLOR_FILL" name="Fill Color">R255 G255 B000</OPTION>
+      </PARAMETERS>
+    </DATASET>
+    <DATASET type="SHAPES">
+      <FILE>sacle.shp</FILE>
+      <PARAMETERS name="01. sacle">
+        <OPTION type="text" id="OBJECT_NAME" name="Name">sacle</OPTION>
+        <OPTION type="long_text" id="OBJECT_DESC" name="Description"/>
+        <OPTION type="boolean" id="SHOW_LEGEND" name="Show Legend">TRUE</OPTION>
+        <OPTION type="range" id="GENERAL_NODATA" name="No Data">-99999.000000; -999.000000</OPTION>
+        <OPTION type="double" id="DISPLAY_TRANSPARENCY" name="Transparency [%]">0.000000</OPTION>
+        <OPTION type="boolean" id="SHOW_ALWAYS" name="Show at all scales">TRUE</OPTION>
+        <OPTION type="range" id="SHOW_RANGE" name="Scale Range">100.000000; 1000.000000</OPTION>
+        <OPTION type="choice" id="COLORS_TYPE" name="Type">0</OPTION>
+        <OPTION type="color" id="UNISYMBOL_COLOR" name="Color">R255 G255 B255</OPTION>
+        <OPTION type="static_table" id="LUT" name="Table">
+          <FIELDS>
+            <FIELD type="COLOR">COLOR</FIELD>
+            <FIELD type="STRING">NAME</FIELD>
+            <FIELD type="STRING">DESCRIPTION</FIELD>
+            <FIELD type="DOUBLE">MINIMUM</FIELD>
+            <FIELD type="DOUBLE">MAXIMUM</FIELD>
+          </FIELDS>
+          <RECORDS>
+            <RECORD>
+              <FIELD>65793</FIELD>
+              <FIELD>Class 1</FIELD>
+              <FIELD>First Class</FIELD>
+              <FIELD>0.000000</FIELD>
+              <FIELD>1.000000</FIELD>
+            </RECORD>
+            <RECORD>
+              <FIELD>255</FIELD>
+              <FIELD>Class 2</FIELD>
+              <FIELD>Second Class</FIELD>
+              <FIELD>1.000000</FIELD>
+              <FIELD>2.000000</FIELD>
+            </RECORD>
+          </RECORDS>
+        </OPTION>
+        <OPTION type="colors" id="METRIC_COLORS" name="Colors">
+          <COLOR>R000 G001 B128</COLOR>
+          <COLOR>R000 G025 B202</COLOR>
+          <COLOR>R000 G088 B248</COLOR>
+          <COLOR>R007 G167 B248</COLOR>
+          <COLOR>R053 G230 B202</COLOR>
+          <COLOR>R128 G255 B127</COLOR>
+          <COLOR>R202 G230 B053</COLOR>
+          <COLOR>R248 G167 B007</COLOR>
+          <COLOR>R248 G088 B000</COLOR>
+          <COLOR>R202 G025 B000</COLOR>
+        </OPTION>
+        <OPTION type="range" id="METRIC_ZRANGE" name="Value Range">0.000000; 0.000000</OPTION>
+        <OPTION type="choice" id="METRIC_SCALE_MODE" name="Mode">0</OPTION>
+        <OPTION type="double" id="METRIC_SCALE_LOG" name="Logarithmic Stretch Factor">1.000000</OPTION>
+        <OPTION type="choice" id="LUT_ATTRIB" name="Attribute">0</OPTION>
+        <OPTION type="choice" id="METRIC_ATTRIB" name="Attribute">0</OPTION>
+        <PARAMETERS name="Chart" id="DISPLAY_CHART" type="parameters"/>
+        <OPTION type="choice" id="LABEL_ATTRIB" name="Attribute">0</OPTION>
+        <OPTION type="font" id="LABEL_ATTRIB_FONT" name="Font">
+          <COLOR>R000 G000 B000</COLOR>
+          <FONT>0;-13;0;0;0;400;0;0;0;0;3;2;1;34;Arial</FONT>
+        </OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_PREC" name="Numerical Precision">0</OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_SIZE_TYPE" name="Size relates to...">0</OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_SIZE_BY" name="Size by Attribute">0</OPTION>
+        <OPTION type="double" id="LABEL_ATTRIB_SIZE" name="Default Size">100.000000</OPTION>
+        <OPTION type="color" id="SEL_COLOR" name="Color">R255 G000 B000</OPTION>
+        <OPTION type="color" id="EDIT_COLOR" name="Color">R000 G000 B000</OPTION>
+        <DATA_LIST type="shapes_list" id="EDIT_SNAP_LIST" name="Snap to..."/>
+        <OPTION type="integer" id="EDIT_SNAP_DIST" name="Snap Distance">10</OPTION>
+        <OPTION type="choice" id="DISPLAY_BRUSH" name="Fill Style">0</OPTION>
+        <OPTION type="boolean" id="OUTLINE" name="Outline">TRUE</OPTION>
+        <OPTION type="color" id="OUTLINE_COLOR" name="Color">R255 G255 B255</OPTION>
+        <OPTION type="integer" id="OUTLINE_SIZE" name="Size">0</OPTION>
+        <OPTION type="choice" id="DISPLAY_SYMBOL_TYPE" name="Symbol Type">0</OPTION>
+        <OPTION type="file" id="DISPLAY_SYMBOL_IMAGE" name="Symbol Image"/>
+        <OPTION type="choice" id="LABEL_ANGLE_ATTRIB" name="Rotation by Attribute">0</OPTION>
+        <OPTION type="double" id="LABEL_ANGLE" name="Default Rotation">0.000000</OPTION>
+        <OPTION type="choice" id="LABEL_ALIGN_X" name="Horizontal Align">1</OPTION>
+        <OPTION type="choice" id="LABEL_ALIGN_Y" name="Vertical Align">0</OPTION>
+        <OPTION type="choice" id="SIZE_TYPE" name="Size relates to...">0</OPTION>
+        <OPTION type="choice" id="SIZE_ATTRIB" name="Attribute">0</OPTION>
+        <OPTION type="choice" id="SIZE_SCALE" name="Attribute Values">1</OPTION>
+        <OPTION type="range" id="SIZE_RANGE" name="Size Range">2.000000; 10.000000</OPTION>
+        <OPTION type="double" id="SIZE_DEFAULT" name="Default Size">5.000000</OPTION>
+        <OPTION type="color" id="SEL_COLOR_FILL" name="Fill Color">R255 G255 B000</OPTION>
+      </PARAMETERS>
+    </DATASET>
+    <DATASET type="SHAPES">
+      <FILE>States.shp</FILE>
+      <PARAMETERS name="03. States">
+        <OPTION type="text" id="OBJECT_NAME" name="Name">States</OPTION>
+        <OPTION type="long_text" id="OBJECT_DESC" name="Description"/>
+        <OPTION type="boolean" id="SHOW_LEGEND" name="Show Legend">TRUE</OPTION>
+        <OPTION type="range" id="GENERAL_NODATA" name="No Data">-99999.000000; -999.000000</OPTION>
+        <OPTION type="double" id="DISPLAY_TRANSPARENCY" name="Transparency [%]">0.000000</OPTION>
+        <OPTION type="boolean" id="SHOW_ALWAYS" name="Show at all scales">TRUE</OPTION>
+        <OPTION type="range" id="SHOW_RANGE" name="Scale Range">100.000000; 1000.000000</OPTION>
+        <OPTION type="choice" id="COLORS_TYPE" name="Type">0</OPTION>
+        <OPTION type="color" id="UNISYMBOL_COLOR" name="Color">R255 G255 B255</OPTION>
+        <OPTION type="static_table" id="LUT" name="Table">
+          <FIELDS>
+            <FIELD type="COLOR">COLOR</FIELD>
+            <FIELD type="STRING">NAME</FIELD>
+            <FIELD type="STRING">DESCRIPTION</FIELD>
+            <FIELD type="DOUBLE">MINIMUM</FIELD>
+            <FIELD type="DOUBLE">MAXIMUM</FIELD>
+          </FIELDS>
+          <RECORDS>
+            <RECORD>
+              <FIELD>65793</FIELD>
+              <FIELD>Class 1</FIELD>
+              <FIELD>First Class</FIELD>
+              <FIELD>0.000000</FIELD>
+              <FIELD>1.000000</FIELD>
+            </RECORD>
+            <RECORD>
+              <FIELD>255</FIELD>
+              <FIELD>Class 2</FIELD>
+              <FIELD>Second Class</FIELD>
+              <FIELD>1.000000</FIELD>
+              <FIELD>2.000000</FIELD>
+            </RECORD>
+          </RECORDS>
+        </OPTION>
+        <OPTION type="colors" id="METRIC_COLORS" name="Colors">
+          <COLOR>R000 G001 B128</COLOR>
+          <COLOR>R000 G025 B202</COLOR>
+          <COLOR>R000 G088 B248</COLOR>
+          <COLOR>R007 G167 B248</COLOR>
+          <COLOR>R053 G230 B202</COLOR>
+          <COLOR>R128 G255 B127</COLOR>
+          <COLOR>R202 G230 B053</COLOR>
+          <COLOR>R248 G167 B007</COLOR>
+          <COLOR>R248 G088 B000</COLOR>
+          <COLOR>R202 G025 B000</COLOR>
+        </OPTION>
+        <OPTION type="range" id="METRIC_ZRANGE" name="Value Range">0.000000; 0.000000</OPTION>
+        <OPTION type="choice" id="METRIC_SCALE_MODE" name="Mode">0</OPTION>
+        <OPTION type="double" id="METRIC_SCALE_LOG" name="Logarithmic Stretch Factor">1.000000</OPTION>
+        <OPTION type="choice" id="LUT_ATTRIB" name="Attribute">0</OPTION>
+        <OPTION type="choice" id="METRIC_ATTRIB" name="Attribute">0</OPTION>
+        <PARAMETERS name="Chart" id="DISPLAY_CHART" type="parameters"/>
+        <OPTION type="choice" id="LABEL_ATTRIB" name="Attribute">0</OPTION>
+        <OPTION type="font" id="LABEL_ATTRIB_FONT" name="Font">
+          <COLOR>R000 G000 B000</COLOR>
+          <FONT>0;-13;0;0;0;400;0;0;0;0;3;2;1;34;Arial</FONT>
+        </OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_PREC" name="Numerical Precision">0</OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_SIZE_TYPE" name="Size relates to...">0</OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_SIZE_BY" name="Size by Attribute">1</OPTION>
+        <OPTION type="double" id="LABEL_ATTRIB_SIZE" name="Default Size">100.000000</OPTION>
+        <OPTION type="color" id="SEL_COLOR" name="Color">R255 G000 B000</OPTION>
+        <OPTION type="color" id="EDIT_COLOR" name="Color">R000 G000 B000</OPTION>
+        <DATA_LIST type="shapes_list" id="EDIT_SNAP_LIST" name="Snap to..."/>
+        <OPTION type="integer" id="EDIT_SNAP_DIST" name="Snap Distance">10</OPTION>
+        <OPTION type="choice" id="DISPLAY_BRUSH" name="Fill Style">0</OPTION>
+        <OPTION type="boolean" id="OUTLINE" name="Outline">TRUE</OPTION>
+        <OPTION type="color" id="OUTLINE_COLOR" name="Color">R255 G255 B255</OPTION>
+        <OPTION type="integer" id="OUTLINE_SIZE" name="Size">0</OPTION>
+        <OPTION type="choice" id="DISPLAY_SYMBOL_TYPE" name="Symbol Type">0</OPTION>
+        <OPTION type="file" id="DISPLAY_SYMBOL_IMAGE" name="Symbol Image"/>
+        <OPTION type="choice" id="LABEL_ANGLE_ATTRIB" name="Rotation by Attribute">1</OPTION>
+        <OPTION type="double" id="LABEL_ANGLE" name="Default Rotation">0.000000</OPTION>
+        <OPTION type="choice" id="LABEL_ALIGN_X" name="Horizontal Align">1</OPTION>
+        <OPTION type="choice" id="LABEL_ALIGN_Y" name="Vertical Align">0</OPTION>
+        <OPTION type="choice" id="SIZE_TYPE" name="Size relates to...">0</OPTION>
+        <OPTION type="choice" id="SIZE_ATTRIB" name="Attribute">1</OPTION>
+        <OPTION type="choice" id="SIZE_SCALE" name="Attribute Values">1</OPTION>
+        <OPTION type="range" id="SIZE_RANGE" name="Size Range">2.000000; 10.000000</OPTION>
+        <OPTION type="double" id="SIZE_DEFAULT" name="Default Size">5.000000</OPTION>
+        <OPTION type="color" id="SEL_COLOR_FILL" name="Fill Color">R255 G255 B000</OPTION>
+      </PARAMETERS>
+    </DATASET>
+    <DATASET type="SHAPES">
+      <FILE>Voyages.shp</FILE>
+      <PARAMETERS name="01. Voyages">
+        <OPTION type="text" id="OBJECT_NAME" name="Name">Voyages</OPTION>
+        <OPTION type="long_text" id="OBJECT_DESC" name="Description"/>
+        <OPTION type="boolean" id="SHOW_LEGEND" name="Show Legend">TRUE</OPTION>
+        <OPTION type="range" id="GENERAL_NODATA" name="No Data">-99999.000000; -999.000000</OPTION>
+        <OPTION type="double" id="DISPLAY_TRANSPARENCY" name="Transparency [%]">0.000000</OPTION>
+        <OPTION type="boolean" id="SHOW_ALWAYS" name="Show at all scales">TRUE</OPTION>
+        <OPTION type="range" id="SHOW_RANGE" name="Scale Range">100.000000; 1000.000000</OPTION>
+        <OPTION type="choice" id="COLORS_TYPE" name="Type">2</OPTION>
+        <OPTION type="color" id="UNISYMBOL_COLOR" name="Color">R000 G255 B255</OPTION>
+        <OPTION type="static_table" id="LUT" name="Table">
+          <FIELDS>
+            <FIELD type="COLOR">COLOR</FIELD>
+            <FIELD type="STRING">NAME</FIELD>
+            <FIELD type="STRING">DESCRIPTION</FIELD>
+            <FIELD type="DOUBLE">MINIMUM</FIELD>
+            <FIELD type="DOUBLE">MAXIMUM</FIELD>
+          </FIELDS>
+          <RECORDS>
+            <RECORD>
+              <FIELD>65793</FIELD>
+              <FIELD>Class 1</FIELD>
+              <FIELD>First Class</FIELD>
+              <FIELD>0.000000</FIELD>
+              <FIELD>1.000000</FIELD>
+            </RECORD>
+            <RECORD>
+              <FIELD>255</FIELD>
+              <FIELD>Class 2</FIELD>
+              <FIELD>Second Class</FIELD>
+              <FIELD>1.000000</FIELD>
+              <FIELD>2.000000</FIELD>
+            </RECORD>
+          </RECORDS>
+        </OPTION>
+        <OPTION type="colors" id="METRIC_COLORS" name="Colors">
+          <COLOR>R000 G001 B128</COLOR>
+          <COLOR>R000 G025 B202</COLOR>
+          <COLOR>R000 G088 B248</COLOR>
+          <COLOR>R007 G167 B248</COLOR>
+          <COLOR>R053 G230 B202</COLOR>
+          <COLOR>R128 G255 B127</COLOR>
+          <COLOR>R202 G230 B053</COLOR>
+          <COLOR>R248 G167 B007</COLOR>
+          <COLOR>R248 G088 B000</COLOR>
+          <COLOR>R202 G025 B000</COLOR>
+        </OPTION>
+        <OPTION type="range" id="METRIC_ZRANGE" name="Value Range">1.000000; 6.000000</OPTION>
+        <OPTION type="choice" id="METRIC_SCALE_MODE" name="Mode">0</OPTION>
+        <OPTION type="double" id="METRIC_SCALE_LOG" name="Logarithmic Stretch Factor">1.000000</OPTION>
+        <OPTION type="choice" id="LUT_ATTRIB" name="Attribute">0</OPTION>
+        <OPTION type="choice" id="METRIC_ATTRIB" name="Attribute">0</OPTION>
+        <PARAMETERS name="Chart" id="DISPLAY_CHART" type="parameters">
+          <OPTION type="choice" id="TYPE" name="Chart Type">0</OPTION>
+          <OPTION type="choice" id="SIZE_FIELD" name="Attribute (Size)">1</OPTION>
+          <OPTION type="choice" id="SIZE_TYPE" name="Size relates to...">0</OPTION>
+          <OPTION type="double" id="SIZE_DEFAULT" name="Default Size">15.000000</OPTION>
+          <OPTION type="range" id="SIZE_RANGE" name="Size Range">5.000000; 25.000000</OPTION>
+          <OPTION type="boolean" id="FIELD_0" name="SHIP">FALSE</OPTION>
+          <OPTION type="color" id="COLOR_0" name="">R000 G001 B128</OPTION>
+        </PARAMETERS>
+        <OPTION type="choice" id="LABEL_ATTRIB" name="Attribute">1</OPTION>
+        <OPTION type="font" id="LABEL_ATTRIB_FONT" name="Font">
+          <COLOR>R000 G000 B000</COLOR>
+          <FONT>0;-13;0;0;0;400;0;0;0;0;3;2;1;34;Arial</FONT>
+        </OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_PREC" name="Numerical Precision">0</OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_SIZE_TYPE" name="Size relates to...">0</OPTION>
+        <OPTION type="choice" id="LABEL_ATTRIB_SIZE_BY" name="Size by Attribute">1</OPTION>
+        <OPTION type="double" id="LABEL_ATTRIB_SIZE" name="Default Size">100.000000</OPTION>
+        <OPTION type="color" id="SEL_COLOR" name="Color">R255 G000 B000</OPTION>
+        <OPTION type="color" id="EDIT_COLOR" name="Color">R000 G000 B000</OPTION>
+        <DATA_LIST type="shapes_list" id="EDIT_SNAP_LIST" name="Snap to..."/>
+        <OPTION type="integer" id="EDIT_SNAP_DIST" name="Snap Distance">10</OPTION>
+        <OPTION type="boolean" id="DISPLAY_POINTS" name="Show Vertices">FALSE</OPTION>
+        <OPTION type="choice" id="LINE_STYLE" name="Line Style">0</OPTION>
+        <OPTION type="choice" id="SIZE_TYPE" name="Size relates to...">0</OPTION>
+        <OPTION type="choice" id="SIZE_ATTRIB" name="Attribute">1</OPTION>
+        <OPTION type="range" id="SIZE_RANGE" name="Size Range">0.000000; 10.000000</OPTION>
+        <OPTION type="integer" id="SIZE_DEFAULT" name="Default Size">0</OPTION>
+      </PARAMETERS>
+    </DATASET>
+  </DATA>
+  <MAPS>
+    <MAP>
+      <NAME>01. Ports</NAME>
+      <XMIN>-70</XMIN>
+      <XMAX>103</XMAX>
+      <YMIN>-3</YMIN>
+      <YMAX>103</YMAX>
+      <VIEW>
+        <MAX></MAX>
+      </VIEW>
+      <LAYERS>
+        <FILE>Ports.shp</FILE>
+        <FILE>Voyages.shp</FILE>
+        <FILE>sacle.shp</FILE>
+        <FILE>States.shp</FILE>
+      </LAYERS>
+    </MAP>
+  </MAPS>
+  <MODULES>
+    <MODULE_LIB>
+      <FILE>main.mcs</FILE>
+      <MODULE name="main">
+        <PARAMETERS name="main"/>
+      </MODULE>
+    </MODULE_LIB>
+  </MODULES>
+  <M3DWINDOW>
+    <POSX>-1</POSX>
+    <POSY>-1</POSY>
+    <SIZEX>-1</SIZEX>
+    <SIZEY>-1</SIZEY>
+  </M3DWINDOW>
+</MICROCITY_PROJECT>
